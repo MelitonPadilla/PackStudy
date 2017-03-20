@@ -1,6 +1,9 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using MySql.Data.MySqlClient;
+using System.Data;
+
 
 namespace PackStudy
 {
@@ -14,8 +17,7 @@ namespace PackStudy
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
 
-            //comment
-            // test branch comment
+          
         }
     }
 }
