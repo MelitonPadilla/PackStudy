@@ -39,5 +39,13 @@ C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\a
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\bin\Debug\System.Numerics.dll.mdb
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\bin\Debug\System.Runtime.Serialization.Primitives.dll.mdb
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\bin\Debug\System.Web.Services.dll.mdb
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.Numerics.dll.mdb
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll.mdb
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.Web.Services.dll.mdb
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\PackStudy.dll.mdb
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\bin\Debug\PackStudy.dll.mdb
