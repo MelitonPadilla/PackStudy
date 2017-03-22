@@ -19,10 +19,18 @@ namespace PackStudy
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
             
-
+            // Create button and events
             Button btnLogin = (Button)FindViewById(Resource.Id.btnLogin);
             btnLogin.Click += BtnLogin_Click;
+            Button btnRegister = (Button)FindViewById(Resource.Id.btnRegister);
+            btnRegister.Click += btnRegister_Click;
 
+        }
+
+        private void btnRegister_Click(object sender, EventArgs args)
+        {
+            Intent activityIntent = new Intent(this, typeof(UserRegistration));
+            StartActivity(activityIntent);
         }
 
         private void BtnLogin_Click(object sender, EventArgs e)
