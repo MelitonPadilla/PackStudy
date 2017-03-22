@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>3/20/2017 11:12:48 AM</xs:documentation>
+    <xs:documentation>3/22/2017 3:58:58 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -16716,6 +16716,21 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
+            <xs:enumeration value="@id/btnLogin" />
+            <xs:enumeration value="@id/btnNext" />
+            <xs:enumeration value="@id/btnRegister" />
+            <xs:enumeration value="@id/etConfirmPassword" />
+            <xs:enumeration value="@id/etEmail" />
+            <xs:enumeration value="@id/etFirstName" />
+            <xs:enumeration value="@id/etLastName" />
+            <xs:enumeration value="@id/etPassword" />
+            <xs:enumeration value="@id/txtConfirmPasswordPrompt" />
+            <xs:enumeration value="@id/txtEmail" />
+            <xs:enumeration value="@id/txtEmailPrompt" />
+            <xs:enumeration value="@id/txtFirstNamePrompt" />
+            <xs:enumeration value="@id/txtLastNamePrompt" />
+            <xs:enumeration value="@id/txtPassword" />
+            <xs:enumeration value="@id/txtPasswordPrompt" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
