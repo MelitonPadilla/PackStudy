@@ -10,6 +10,11 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
+using System.Net;
+using System.Collections.Specialized;
+using Android.Content;
+using Newtonsoft.Json;
+
 namespace PackStudy
 {
     [Activity(Label = "UserRegistration")]
@@ -140,10 +145,59 @@ namespace PackStudy
             // If all tests pass procced to next page
             if (AllTestsPassed == true)
             {
-                // Go to next page
-                Intent activityIntent = new Intent(this, typeof(SelectCourses));
-                StartActivity(activityIntent);
-            }
+                //etFirstName
+                WebClient client = new WebClient();
+                Uri uri = new Uri("http://packstudy-com.stackstaging.com/registration.php");
+                NameValueCollection parameter = new NameValueCollection();
+
+                parameter.Add("FirstName", etFirstName.Text);
+                parameter.Add("LastName", etLastName.Text);
+                parameter.Add("Email", etEmail.Text);
+                parameter.Add("Password", etPassword.Text);
+                parameter.Add("PhoneNumber", "123456789");
+
+                byte[] returnValue = client.UploadValues(uri, parameter);
+                string r = Encoding.ASCII.GetString(returnValue);
+
+                if (r == "Sucess")
+                {
+                    
+                    uri = new Uri("http://packstudy-com.stackstaging.com/login.php");
+                    parameter = new NameValueCollection();
+                    parameter.Add("Email", etEmail.Text);
+                    parameter.Add("Password", etPassword.Text);
+                    returnValue = client.UploadValues(uri, parameter);
+                    r = Encoding.ASCII.GetString(returnValue);
+
+                    List<User> users = JsonConvert.DeserializeObject<List<User>>(r);
+                    User CurrentUser = users[0];
+                    //since the user name and password work, store it in the shared prefrences 
+                    ISharedPreferences sharedPrefrences = GetSharedPreferences("MyData", FileCreationMode.Private);
+                    var prefEditor = sharedPrefrences.Edit();
+                    prefEditor.PutInt("id", CurrentUser.Id);
+                    prefEditor.PutString("FirstName", CurrentUser.FirstName);
+                    prefEditor.PutString("LastName", CurrentUser.LastName);
+                    prefEditor.PutString("Email", CurrentUser.Email);
+                    prefEditor.PutString("Password", CurrentUser.Password);
+                    prefEditor.PutString("PhoneNumber", CurrentUser.PhoneNumber);
+                    prefEditor.PutString("Username", CurrentUser.Username);
+
+                    prefEditor.Commit();
+                    // Go to next page
+                    Intent activityIntent = new Intent(this, typeof(SelectCourses));
+                    StartActivity(activityIntent);
+
+                }
+                else
+                {
+                    Context context = ApplicationContext;
+                    string error = "Did not upload to database correctly";
+                    Toast toast = Toast.MakeText(context, error, Android.Widget.ToastLength.Long);
+                    toast.Show();
+                }
+
+
+             }
 
         }
 

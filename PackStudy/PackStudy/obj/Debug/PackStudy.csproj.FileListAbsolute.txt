@@ -47,7 +47,6 @@ C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\bin\Debug\S
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.Numerics.dll.mdb
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll.mdb
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.Web.Services.dll.mdb
-C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\PackStudy.dll.mdb
 C:\Users\Owner\Desktop\PackStudy-devAustin_Database\PackStudy\PackStudy\bin\Debug\PackStudy.dll
 C:\Users\Owner\Desktop\PackStudy-devAustin_Database\PackStudy\PackStudy\bin\Debug\PackStudy.pdb
 C:\Users\Owner\Desktop\PackStudy-devAustin_Database\PackStudy\PackStudy\bin\Debug\PackStudy.PackStudy.apk
@@ -151,4 +150,7 @@ D:\VisualStudioProjects\PackStudy-devAustin_Database\PackStudy\PackStudy\obj\Deb
 D:\VisualStudioProjects\PackStudy-devAustin_Database\PackStudy\PackStudy\obj\Debug\android\assets\System.Xml.dll.mdb
 D:\VisualStudioProjects\PackStudy-devAustin_Database\PackStudy\PackStudy\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 D:\VisualStudioProjects\PackStudy-devAustin_Database\PackStudy\PackStudy\obj\Debug\PackStudy.dll.mdb
-D:\VisualStudioProjects\PackStudy-devAustin_Database\PackStudy\PackStudy\bin\Debug\PackStudy.dll.mdb
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\res\layout\registration.xml
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\res\layout\selectcourses.xml
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\PackStudy.dll.mdb
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\bin\Debug\PackStudy.dll.mdb
