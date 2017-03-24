@@ -13,6 +13,7 @@ using System.Net;
 using System.Collections.Specialized;
 using Newtonsoft.Json;
 using Android.Graphics;
+using System.Timers;
 
 namespace PackStudy
 {
@@ -20,6 +21,7 @@ namespace PackStudy
     public class MessageBoard : Activity
     {
         int lastmessageId = 0;
+        System.Timers.Timer t;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -28,9 +30,21 @@ namespace PackStudy
             WebClient client = new WebClient();
             Uri uri = new Uri("http://packstudy-com.stackstaging.com/messages.php");
             NameValueCollection parameter = new NameValueCollection();
+
             GetMessages();
             Button btnSend = (Button)FindViewById(Resource.Id.btnSend);
             btnSend.Click += BtnSend_Click;
+            t = new System.Timers.Timer();
+            t.Interval = 3000;
+            t.Elapsed += new System.Timers.ElapsedEventHandler(t_Elapsed);
+            t.Start();
+        }
+
+        private void t_Elapsed(object sender, ElapsedEventArgs e)
+        {
+            t.Stop();
+            GetMessages();
+            t.Start();
         }
 
         private void BtnSend_Click(object sender, EventArgs e)
@@ -78,14 +92,31 @@ namespace PackStudy
             TextView tvMessages = (TextView)FindViewById(Resource.Id.tvMessages);
             tvMessages.Text = "";
             LinearLayout llMessageBoard = (LinearLayout)FindViewById(Resource.Id.llMessageBoard);
-            
+            ScrollView svScroll = (ScrollView)FindViewById(Resource.Id.svScroll);
             foreach (Message m in messages)
             {
            
-                TextView textView1 = new TextView(this) { Text = m.Name + "\n\n" + m.aMessage + "\n\n" + m.reg_date + "\n\n\n" };
-                textView1.SetBackgroundColor(Color.DeepSkyBlue);
+                TextView textView1 = new TextView(this) { Text = m.Name + "\n\n" + m.aMessage + "\n\n" + m.reg_date + "\n" };
+
+                if (UserId.ToString() == m.UserId)
+                {
+                    textView1.SetBackgroundColor(Color.DarkGreen);
+                    textView1.Gravity = GravityFlags.Right;
+                   
+                }
+                else
+                {
+                    textView1.SetBackgroundColor(Color.DeepSkyBlue);
+                }
+                textView1.SetPadding(50, 50, 50, 50);
                 llMessageBoard.AddView(textView1);
+                Space space = new Space(this);
+
+                space.SetMinimumHeight(50);
+                llMessageBoard.AddView(space);
                 lastmessageId = m.id;
+                svScroll.FullScroll(FocusSearchDirection.Down);
+
             } 
         }
     }
