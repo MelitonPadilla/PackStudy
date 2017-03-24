@@ -152,5 +152,6 @@ D:\VisualStudioProjects\PackStudy-devAustin_Database\PackStudy\PackStudy\obj\Deb
 D:\VisualStudioProjects\PackStudy-devAustin_Database\PackStudy\PackStudy\obj\Debug\PackStudy.dll.mdb
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\res\layout\registration.xml
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\res\layout\selectcourses.xml
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\res\layout\messageboard.xml
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\PackStudy.dll.mdb
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\bin\Debug\PackStudy.dll.mdb

@@ -27,6 +27,8 @@ namespace PackStudy
             string CurrentUserFirstName = sharedPrefrences.GetString("FirstName", null);
             string CurrentUserLastName = sharedPrefrences.GetString("LastName", null);
             string message = "Welcome " + CurrentUserFirstName + " " + CurrentUserLastName;
+            Intent activityIntent = new Intent(this, typeof(MessageBoard));
+            StartActivity(activityIntent);
             Context context = ApplicationContext;
             Toast toast = Toast.MakeText(context, message, ToastLength.Long);
             toast.Show();

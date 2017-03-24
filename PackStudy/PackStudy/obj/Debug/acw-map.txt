@@ -2,6 +2,10 @@ PackStudy.MainActivity, PackStudy;md551cedd41217b89e1ccccd3023fce80ee.MainActivi
 PackStudy.MainActivity, PackStudy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md551cedd41217b89e1ccccd3023fce80ee.MainActivity
 PackStudy.MainActivity;md551cedd41217b89e1ccccd3023fce80ee.MainActivity
 packstudy.MainActivity;md551cedd41217b89e1ccccd3023fce80ee.MainActivity
+PackStudy.MessageBoard, PackStudy;md551cedd41217b89e1ccccd3023fce80ee.MessageBoard
+PackStudy.MessageBoard, PackStudy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md551cedd41217b89e1ccccd3023fce80ee.MessageBoard
+PackStudy.MessageBoard;md551cedd41217b89e1ccccd3023fce80ee.MessageBoard
+packstudy.MessageBoard;md551cedd41217b89e1ccccd3023fce80ee.MessageBoard
 PackStudy.SelectCourses, PackStudy;md551cedd41217b89e1ccccd3023fce80ee.SelectCourses
 PackStudy.SelectCourses, PackStudy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md551cedd41217b89e1ccccd3023fce80ee.SelectCourses
 PackStudy.SelectCourses;md551cedd41217b89e1ccccd3023fce80ee.SelectCourses

@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>3/23/2017 1:35:18 PM</xs:documentation>
+    <xs:documentation>3/23/2017 7:06:15 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -16973,18 +16973,22 @@
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnRegister" />
             <xs:enumeration value="@id/btnRemoveCourse" />
+            <xs:enumeration value="@id/btnSend" />
             <xs:enumeration value="@id/etConfirmPassword" />
             <xs:enumeration value="@id/etEmail" />
             <xs:enumeration value="@id/etFirstName" />
             <xs:enumeration value="@id/etLastName" />
             <xs:enumeration value="@id/etPassword" />
+            <xs:enumeration value="@id/llMessageBoard" />
             <xs:enumeration value="@id/spinClasses" />
             <xs:enumeration value="@id/spinSemester" />
+            <xs:enumeration value="@id/tvMessages" />
             <xs:enumeration value="@id/txtConfirmPasswordPrompt" />
             <xs:enumeration value="@id/txtEmail" />
             <xs:enumeration value="@id/txtEmailPrompt" />
             <xs:enumeration value="@id/txtFirstNamePrompt" />
             <xs:enumeration value="@id/txtLastNamePrompt" />
+            <xs:enumeration value="@id/txtMessage" />
             <xs:enumeration value="@id/txtPassword" />
             <xs:enumeration value="@id/txtPasswordPrompt" />
             <xs:enumeration value="@id/txtSelectCoursePrompt" />

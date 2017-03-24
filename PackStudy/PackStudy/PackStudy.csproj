@@ -60,6 +60,8 @@
   <ItemGroup>
     <Compile Include="Course.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="MessageBoard.cs" />
     <Compile Include="passwordScore.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +78,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SelectCourses.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\MessageBoard.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
