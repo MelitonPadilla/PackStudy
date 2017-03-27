@@ -104,13 +104,16 @@ namespace PackStudy
 
                 if (UserId.ToString() == m.UserId)
                 {
-                    textView1.SetBackgroundColor(Color.DarkGreen);
+                    textView1.SetBackgroundColor(Color.ParseColor("#1A89F7"));
+                    textView1.SetTextColor(Color.White);
                     textView1.Gravity = GravityFlags.Right;
                    
                 }
                 else
                 {
-                    textView1.SetBackgroundColor(Color.DeepSkyBlue);
+                    textView1.SetBackgroundColor(Color.ParseColor("#E6E5EB"));
+                    textView1.SetTextColor(Color.Black);
+
                 }
                 textView1.SetPadding(50, 50, 50, 50);
                 textView1.Focusable = true;

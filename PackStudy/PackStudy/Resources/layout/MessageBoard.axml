@@ -7,7 +7,7 @@
             android:id="@+id/svScroll"
             android:layout_width="fill_parent"
             android:layout_height="550dp"
-            android:background="#B0B0B0"
+            android:background="#FFFFFF"
             android:focusable="true"
             android:focusableInTouchMode="true">
     <LinearLayout
