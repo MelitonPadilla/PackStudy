@@ -104,7 +104,8 @@ namespace PackStudy
 
                 if (UserId.ToString() == m.UserId)
                 {
-                    textView1.SetBackgroundColor(Color.ParseColor("#1A89F7"));
+                    //#1A89F7 ligher blue
+                    textView1.SetBackgroundColor(Color.ParseColor("#0E122D"));
                     textView1.SetTextColor(Color.White);
                     textView1.Gravity = GravityFlags.Right;
                    

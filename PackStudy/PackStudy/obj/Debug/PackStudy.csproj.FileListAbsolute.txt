@@ -153,5 +153,6 @@ C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\a
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.Web.Services.dll.mdb
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\res\drawable\newwolfhead.png
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\obj\Debug\PackStudy.dll.mdb
 C:\Users\Austin\Source\Repos\PackStudy\PackStudy\PackStudy\PackStudy\bin\Debug\PackStudy.dll.mdb

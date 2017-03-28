@@ -3,6 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>Nexus6Text</SelectedDevice>
     <DefaultDevice>Nexus6Text</DefaultDevice>
-    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <AndroidDesignerPreferredDevice>Nexus 6</AndroidDesignerPreferredDevice>
   </PropertyGroup>
 </Project>
